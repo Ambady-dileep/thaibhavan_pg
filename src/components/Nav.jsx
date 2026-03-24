@@ -23,14 +23,20 @@ export default function Nav() {
   ];
 
   return (
-    <nav className={`fixed w-full z-50 transition-all duration-500 ${scrolled ? 'bg-white/80 backdrop-blur-lg shadow-sm py-4' : 'bg-transparent py-6'}`}>
-      <div className="container mx-auto px-6 md:px-12 flex justify-between items-center">
-        <a href="#home" className="text-xl font-semibold font-heading text-neutral-900 tracking-tight z-50">
-          Thaibhavan<span className="text-primary-600 flex-none bg-clip-text">.PG</span>
-        </a>
+    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${scrolled ? 'bg-white/90 backdrop-blur-md shadow-sm py-3' : 'bg-transparent py-4 md:py-6'}`}>
+      <div className="container mx-auto px-4 md:px-12 flex items-center justify-between">
+        <motion.div 
+          initial={{ opacity: 0, x: -20 }}
+          animate={{ opacity: 1, x: 0 }}
+          className="flex items-center gap-1 md:gap-2 no-underline"
+        >
+          <a href="#home" className="text-xl md:text-2xl font-bold font-heading text-neutral-900 tracking-tight hover:opacity-80 transition-opacity">
+            Thaibhavan<span className="text-primary-600">.PG</span>
+          </a>
+        </motion.div>
 
-        {/* Desktop Nav */}
-        <div className="hidden md:flex space-x-8">
+        {/* Desktop Menu */}
+        <div className="hidden md:flex items-center gap-10">
           {navLinks.map((link) => (
             <a 
               key={link.name} 

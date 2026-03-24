@@ -5,11 +5,11 @@ export default function Contact() {
   const whatsappUrl = `https://wa.me/919947237049?text=${encodeURIComponent("Hi, I'm interested in Thaibhavan PG.")}`;
 
   return (
-    <section id="contact" className="py-24 bg-white">
-      <div className="container mx-auto px-6 md:px-12">
-        <div className="max-w-5xl mx-auto bg-neutral-50 rounded-[2.5rem] border border-neutral-100 overflow-hidden flex flex-col md:flex-row">
+    <section id="contact" className="py-10 md:py-16 bg-white">
+      <div className="container mx-auto px-4 md:px-12">
+        <div className="max-w-5xl mx-auto bg-neutral-50 rounded-[1.5rem] md:rounded-[2.5rem] border border-neutral-100 overflow-hidden flex flex-col md:flex-row">
           
-          <div className="w-full md:w-1/2 p-10 md:p-16 flex flex-col justify-center">
+          <div className="w-full md:w-1/2 p-8 md:p-12 flex flex-col justify-center">
             <motion.div
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -51,7 +51,7 @@ export default function Contact() {
             </motion.div>
           </div>
           
-          <div className="w-full md:w-1/2 bg-white p-10 md:p-16 flex flex-col justify-center border-l border-neutral-100">
+          <div className="w-full md:w-1/2 bg-white p-8 md:p-12 flex flex-col justify-center border-l border-neutral-100">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
