@@ -7,10 +7,10 @@ export default function Footer() {
     <footer className="bg-neutral-900 border-t border-neutral-800 py-8 text-neutral-400 text-center">
       <div className="container mx-auto px-4 md:px-6">
         <p className="flex items-center justify-center gap-2 mb-2">
-          Made with <Heart size={16} className="text-red-500 fill-red-500 animate-pulse" /> for Thaibhavan PG
+          Made with <Heart size={16} className="text-red-500 fill-red-500 animate-pulse" />
         </p>
         <p className="text-sm">
-          &copy; {currentYear} Thaibhavan PG. All rights reserved.
+          &copy; {currentYear} Thaibhavan PG Homestay. All rights reserved.
         </p>
       </div>
     </footer>

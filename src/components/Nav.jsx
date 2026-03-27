@@ -31,7 +31,7 @@ export default function Nav() {
           className="flex items-center gap-1 md:gap-2 no-underline"
         >
           <a href="#home" className="text-xl md:text-2xl font-bold font-heading text-neutral-900 tracking-tight hover:opacity-80 transition-opacity">
-            Thaibhavan<span className="text-primary-600">.PG</span>
+            Thaibhavan<span className="text-primary-600">.HomeStay's</span>
           </a>
         </motion.div>
 

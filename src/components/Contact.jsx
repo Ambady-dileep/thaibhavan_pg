@@ -30,8 +30,11 @@ export default function Contact() {
                   <div>
                     <h4 className="text-sm font-semibold text-neutral-900 tracking-tight">Location</h4>
                     <p className="text-sm text-neutral-500 leading-relaxed font-light mt-1">
-                      THAI BHAVAN, Mundakapparambu, <br />
-                      Pazhaveeedu P.O, Alappuzha, 688009
+                      Thai Bhavan, Mundakapparambu, <br />
+                      Near Athithara Sree Bhagavathi Temple  
+                      Near The Institute of Chartered Accountants of India  
+                      Athithara Junction (100m)  
+                      Pazhaveedu P.O, Alappuzha, Kerala 688009, India
                     </p>
                   </div>
                 </div>

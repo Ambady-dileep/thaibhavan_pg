@@ -94,7 +94,7 @@ export default function Hero() {
           
           <motion.h1 variants={itemVariants} className="text-3xl md:text-[4rem] font-medium font-heading text-neutral-900 mb-6 md:mb-8 leading-[1.1] tracking-tight">
             Elevated living for women at <span className="text-primary-600 block mt-1 md:mt-2 relative">
-              Thaibhavan PG.
+              Thaibhavan PG Homestay
               <motion.span 
                 initial={{ width: 0 }}
                 animate={{ width: "100%" }}
